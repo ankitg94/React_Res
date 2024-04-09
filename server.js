@@ -3,11 +3,10 @@ const cors = require('cors')
 const dotenv =require('dotenv')
 
 const  path =require( 'path')
-const { fileURLToPath } =require("url");
+
 //dotenv configuration
 dotenv.config()
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename)
+
 
 //rest objects
 const app =express()
